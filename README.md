@@ -12,5 +12,5 @@ This model is published by Benedek Fabian et al. Molecular representation learni
 Code: https://github.com/BenevolentAI/MolBERT
 
 ## History 
-= Model was downloaded and incorporated on September 28, 2021
+- Model was downloaded and incorporated on September 28, 2021
 
