@@ -23,6 +23,9 @@ Molecular representation using the BERT language Transformer. The model has been
 * [Source Code](https://github.com/BenevolentAI/MolBERT)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos2thm)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://arxiv.org/abs/2011.13230) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
