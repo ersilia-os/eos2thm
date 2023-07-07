@@ -2,13 +2,13 @@ import sys
 import csv
 import os
 
-sys.path.append(".")
+# sys.path.append(".")
 
 from molbert.utils.featurizer.molbert_featurizer import MolBertFeaturizer
 
 infile = sys.argv[1]
 outfile = sys.argv[2]
-checkpoints_dir = sys.argv[3]
+checkpoints_dir = os.path.abspath(os.path.join(__file__,"../../checkpoints"))
 
 path_to_checkpoint = os.path.join(checkpoints_dir, 'molbert_100epochs/checkpoints/last.ckpt')
 mdl = MolBertFeaturizer(path_to_checkpoint)

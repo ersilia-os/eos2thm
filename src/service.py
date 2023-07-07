@@ -60,8 +60,7 @@ class Model(object):
                 "python {0}/predict.py {1} {2} {3}".format(
                     self.framework_dir,
                     data_file,
-                    pred_file,
-                    self.checkpoints_dir
+                    pred_file 
                 )
             ]
             f.write(os.linesep.join(lines))
