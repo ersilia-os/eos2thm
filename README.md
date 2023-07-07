@@ -25,6 +25,8 @@ Molecular representation using the BERT language Transformer. The model has been
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos2thm)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2thm.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos2thm) (AMD64)
 
 ## Citation
 
