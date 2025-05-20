@@ -95,8 +95,8 @@ class MolBertFeaturizer:
 
         input_ids = self.trim_batch(input_ids, valid)
 
-        token_type_ids = np.zeros_like(input_ids, dtype=np.long)
-        attention_mask = np.zeros_like(input_ids, dtype=np.long)
+        token_type_ids = np.zeros_like(input_ids, dtype=np.int_)
+        attention_mask = np.zeros_like(input_ids, dtype=np.int_)
 
         attention_mask[input_ids != 0] = 1
 
