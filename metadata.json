@@ -4,21 +4,25 @@
     "Status": "Ready",
     "Title": "MolBERT chemical language transformer",
     "Description": "Molecular representation using the BERT language Transformer. The model has been pre-trained on the GuacaMol dataset (~1.6M molecules from ChEMBL), and can be fine-tuned to the desired QSAR tasks. It has been benchmarked in MoleculeNet.\n\n",
-    "Mode": "Pretrained",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
-    "Task": [
-        "Representation"
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Descriptor"
     ],
-    "Output Type": [
-        "Float"
-    ],
-    "Output Shape": "List",
+    "Output Dimension": 768,
+    "Output Consistency": "Fixed",
     "Interpretation": "Embedding representation of a molecule",
     "Tag": [
         "Chemical language model",
@@ -26,12 +30,18 @@
         "Descriptor"
     ],
     "Publication": "https://arxiv.org/abs/2011.13230",
+    "Publication Type": "Preprint",
+    "Publication Year": 2020,
     "Source Code": "https://github.com/BenevolentAI/MolBERT",
     "License": "MIT",
     "Contributor": "miquelduranfrigola",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2thm.zip",
+    "Incorporation Date": "2021-09-17",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2thm",
     "Docker Architecture": [
         "AMD64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2thm.zip",
+    "Deployment": [
+        "Local"
     ]
 }
