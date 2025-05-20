@@ -11,7 +11,7 @@ RUN pip install scipy==1.5.1
 RUN pip install transformers==3.5.1
 RUN pip install torch==1.7.1
 RUN pip install pandas==1.3.5
-RUN pip install protobuf=3.20.0
+RUN pip install protobuf==3.20.0
 
 WORKDIR /repo
 COPY . /repo
