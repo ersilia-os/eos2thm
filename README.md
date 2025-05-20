@@ -2,7 +2,7 @@
 
 Molecular representation using the BERT language Transformer. The model has been pre-trained on the GuacaMol dataset (~1.6M molecules from ChEMBL), and can be fine-tuned to the desired QSAR tasks. It has been benchmarked in MoleculeNet.
 
-This model was incorporated on 2021-09-17.
+This model was incorporated on 2021-09-28.
 
 ## Information
 ### Identifiers
