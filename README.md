@@ -50,7 +50,12 @@ _10 of 768 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `998`
 - **Environment Size (Mb):** `5637`
+- **Image Size (Mb):** `8540.75`
 
+**Computational Performance (seconds):**
+- 10 inputs: `47.72`
+- 100 inputs: `160.72`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/BenevolentAI/MolBERT](https://github.com/BenevolentAI/MolBERT)
