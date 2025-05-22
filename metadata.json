@@ -41,9 +41,13 @@
     "Incorporation Date": "2021-09-28",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2thm.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2thm",
-    "Docker Architecture": [
-        "AMD64"
-    ],
+    "Docker Architecture": "AMD64",
     "Model Size": 998.0,
-    "Environment Size": 5637.0
+    "Environment Size": 5637.0,
+    "Image Size": 8540.75,
+    "Computational Performance 1": 47.72,
+    "Computational Performance 2": 46.12,
+    "Computational Performance 3": 160.72,
+    "Computational Performance 4": 1396.61,
+    "Computational Performance 5": -1.0
 }
