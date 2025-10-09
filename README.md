@@ -4,6 +4,7 @@ Molecular representation using the BERT language Transformer. The model has been
 
 This model was incorporated on 2021-09-28.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos2thm`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-09-28.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Chemical language model`, `Embedding`, `Descriptor`
 
 ### Input
