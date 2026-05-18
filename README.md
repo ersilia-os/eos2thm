@@ -59,7 +59,7 @@ _10 of 768 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/BenevolentAI/MolBERT](https://github.com/BenevolentAI/MolBERT)
-- **Publication**: [https://arxiv.org/abs/2011.13230](https://arxiv.org/abs/2011.13230)
+- **Publication**: [https://doi.org/10.48550/arXiv.2011.13230](https://doi.org/10.48550/arXiv.2011.13230)
 - **Publication Type:** `Preprint`
 - **Publication Year:** `2020`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
