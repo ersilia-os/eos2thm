@@ -27,7 +27,7 @@ empty = [""]*ncol
 
 with open(outfile, "w") as f:
     writer = csv.writer(f)
-    header = [f"feature_{str(i).zfill(3)}" for i in range(768)]
+    header = [f"feat_{str(i).zfill(3)}" for i in range(768)]
     writer.writerow(header) 
     for i in range(nrow):
         if masks[i]:
