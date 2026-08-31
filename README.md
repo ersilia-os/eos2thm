@@ -28,16 +28,16 @@ This model was incorporated on 2021-09-28.Last packaged on 2025-10-09.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| feature_000 | float |  | Feature 0 of the MolBERT transformer |
-| feature_001 | float |  | Feature 1 of the MolBERT transformer |
-| feature_002 | float |  | Feature 2 of the MolBERT transformer |
-| feature_003 | float |  | Feature 3 of the MolBERT transformer |
-| feature_004 | float |  | Feature 4 of the MolBERT transformer |
-| feature_005 | float |  | Feature 5 of the MolBERT transformer |
-| feature_006 | float |  | Feature 6 of the MolBERT transformer |
-| feature_007 | float |  | Feature 7 of the MolBERT transformer |
-| feature_008 | float |  | Feature 8 of the MolBERT transformer |
-| feature_009 | float |  | Feature 9 of the MolBERT transformer |
+| feat_000 | float |  | Feature 0 of the MolBERT transformer |
+| feat_001 | float |  | Feature 1 of the MolBERT transformer |
+| feat_002 | float |  | Feature 2 of the MolBERT transformer |
+| feat_003 | float |  | Feature 3 of the MolBERT transformer |
+| feat_004 | float |  | Feature 4 of the MolBERT transformer |
+| feat_005 | float |  | Feature 5 of the MolBERT transformer |
+| feat_006 | float |  | Feature 6 of the MolBERT transformer |
+| feat_007 | float |  | Feature 7 of the MolBERT transformer |
+| feat_008 | float |  | Feature 8 of the MolBERT transformer |
+| feat_009 | float |  | Feature 9 of the MolBERT transformer |
 
 _10 of 768 columns are shown_
 ### Source and Deployment
