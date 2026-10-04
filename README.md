@@ -1,6 +1,6 @@
 # MolBERT chemical language transformer
 
-Molecular representation using the BERT language Transformer. The model has been pre-trained on the GuacaMol dataset (~1.6M molecules from ChEMBL), and can be fine-tuned to the desired QSAR tasks. It has been benchmarked in MoleculeNet.
+Produces a 768-dimensional embedding from MolBERT, a language model trained on SMILES with chemistry-aware auxiliary objectives. Fabian and colleagues at BenevolentAI combined masked-token prediction with tasks such as recovering physicochemical descriptors and recognising equivalent SMILES for the same molecule, so the encoder learns chemical invariances instead of surface string patterns. The embedding is task-independent and its individual dimensions carry no direct chemical meaning.
 
 This model was incorporated on 2021-09-28.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-09-28.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `768`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Embedding representation of a molecule
+- **Interpretation:** 768 features encoding molecular structure from a chemistry-aware language model.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
