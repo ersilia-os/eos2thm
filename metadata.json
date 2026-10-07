@@ -3,7 +3,7 @@
     "Slug": "molbert",
     "Status": "Ready",
     "Title": "MolBERT chemical language transformer",
-    "Description": "Produces a 768-dimensional embedding from MolBERT, a language model trained on SMILES with chemistry-aware auxiliary objectives. Fabian and colleagues at BenevolentAI combined masked-token prediction with tasks such as recovering physicochemical descriptors and recognising equivalent SMILES for the same molecule, so the encoder learns chemical invariances instead of surface string patterns. The embedding is task-independent and its individual dimensions carry no direct chemical meaning.",
+    "Description": "Produces a 768-dimensional embedding from MolBERT, a BERT-style language model pretrained on the GuacaMol set of roughly 1.6 million ChEMBL molecules. Fabian and colleagues at BenevolentAI combined masked-token prediction with chemistry-aware auxiliary tasks, recovering calculated physicochemical descriptors and recognising equivalent SMILES for the same molecule, so the encoder learns chemical invariances instead of surface string patterns. The embedding is task-independent, was benchmarked on MoleculeNet, and its dimensions carry no direct chemical meaning.",
     "Deployment": [
         "Local"
     ],
