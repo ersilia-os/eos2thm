@@ -2,7 +2,8 @@
 
 Produces a 768-dimensional embedding from MolBERT, a BERT-style language model pretrained on the GuacaMol set of roughly 1.6 million ChEMBL molecules. Fabian and colleagues at BenevolentAI combined masked-token prediction with chemistry-aware auxiliary tasks, recovering calculated physicochemical descriptors and recognising equivalent SMILES for the same molecule, so the encoder learns chemical invariances instead of surface string patterns. The embedding is task-independent, was benchmarked on MoleculeNet, and its dimensions carry no direct chemical meaning.
 
-This model was incorporated on 2021-09-28.Last packaged on 2026-08-31.
+This model was incorporated on 2021-09-28.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 768 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2thm](https://hub.docker.com/r/ersiliaos/eos2thm)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2thm.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2thm.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2thm_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2thm_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `998`
